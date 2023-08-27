@@ -1,0 +1,18 @@
+{
+  "name": "@fsavio/boleto-utils-android-arm-eabi",
+  "version": "0.0.1",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "main": "boleto-utils.android-arm-eabi.node",
+  "files": [
+    "boleto-utils.android-arm-eabi.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

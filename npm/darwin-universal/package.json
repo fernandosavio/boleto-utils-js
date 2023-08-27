@@ -1,0 +1,15 @@
+{
+  "name": "@fsavio/boleto-utils-darwin-universal",
+  "version": "0.0.1",
+  "os": [
+    "darwin"
+  ],
+  "main": "boleto-utils.darwin-universal.node",
+  "files": [
+    "boleto-utils.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

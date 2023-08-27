@@ -1,0 +1,21 @@
+{
+  "name": "@fsavio/boleto-utils-linux-arm64-musl",
+  "version": "0.0.1",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "boleto-utils.linux-arm64-musl.node",
+  "files": [
+    "boleto-utils.linux-arm64-musl.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "musl"
+  ]
+}
