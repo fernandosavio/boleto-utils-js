@@ -41,5 +41,21 @@
     "universal": "napi universal",
     "version": "napi version"
   },
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "optionalDependencies": {
+    "@fsavio/boleto-utils-win32-x64-msvc": "0.0.1",
+    "@fsavio/boleto-utils-darwin-x64": "0.0.1",
+    "@fsavio/boleto-utils-linux-x64-gnu": "0.0.1",
+    "@fsavio/boleto-utils-darwin-arm64": "0.0.1",
+    "@fsavio/boleto-utils-android-arm64": "0.0.1",
+    "@fsavio/boleto-utils-linux-arm64-gnu": "0.0.1",
+    "@fsavio/boleto-utils-linux-arm64-musl": "0.0.1",
+    "@fsavio/boleto-utils-win32-arm64-msvc": "0.0.1",
+    "@fsavio/boleto-utils-linux-arm-gnueabihf": "0.0.1",
+    "@fsavio/boleto-utils-linux-x64-musl": "0.0.1",
+    "@fsavio/boleto-utils-freebsd-x64": "0.0.1",
+    "@fsavio/boleto-utils-win32-ia32-msvc": "0.0.1",
+    "@fsavio/boleto-utils-android-arm-eabi": "0.0.1",
+    "@fsavio/boleto-utils-darwin-universal": "0.0.1"
+  }
 }
