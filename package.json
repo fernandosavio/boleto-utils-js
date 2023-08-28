@@ -3,6 +3,31 @@
   "version": "0.0.1",
   "main": "index.js",
   "types": "index.d.ts",
+  "description": "Javascript bindings for Rust crate `boleto-utils`.",
+  "homepage": "https://github.com/fernandosavio/boleto-utils-js#readme",
+  "bugs": {
+    "url": "https://github.com/fernandosavio/boleto-utils-js/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Fernando Sávio",
+    "url": "https://github.com/fernandosavio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fernandosavio/boleto-utils-js"
+  },
+  "keywords": [
+    "boleto",
+    "código de barras",
+    "barcode",
+    "linha digitável",
+    "digitable line",
+    "cobrança",
+    "arrecadação",
+    "convênio",
+    "npc"
+  ],
   "napi": {
     "name": "boleto-utils",
     "triples": {
@@ -21,7 +46,6 @@
       ]
     }
   },
-  "license": "MIT",
   "devDependencies": {
     "@napi-rs/cli": "^2.16.3",
     "ava": "^5.1.1"
