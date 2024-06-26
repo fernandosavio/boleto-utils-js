@@ -1,0 +1,38 @@
+{
+  "name": "@fsavio/boleto-utils",
+  "version": "0.0.1",
+  "description": "Biblioteca para fazer parsing e validação de códigos de barras e linhas digitáveis de boletos brasileiros.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist/*"],
+  "scripts": {
+    "clear": "rm -r ./dist",
+    "build:types": "tsc",
+    "build": "npm run clear && npm run build:types && node scripts/build.mjs",
+    "test": "vitest run",
+    "prepublishOnly": "npm test",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandosavio/boleto-utils-js.git"
+  },
+  "keywords": [
+    "boleto",
+    "barcode",
+    "código de barras",
+    "linha digitável"
+  ],
+  "author": "Fernando Sávio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fernandosavio/boleto-utils-js/issues"
+  },
+  "homepage": "https://github.com/fernandosavio/boleto-utils-js#readme",
+  "devDependencies": {
+    "esbuild": "0.21.5",
+    "typescript": "5.5.2"
+  }
+}
